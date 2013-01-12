@@ -1,0 +1,97 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="design.css" />
+	<script type="text/javascript" src="scripts/jquery.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$("div[id=projBox] > div#boxContent").hide();
+				
+		$('div[id=projBox]').children('#boxTitle').mouseover(function() { 
+			if ($(this).parent().children('#boxContent').is(':hidden')){
+				$(this).css('color', 'red');
+			}
+		});
+		$('div[id=projBox]').children('#boxTitle').mouseout(function() {
+				$(this).css('color', '#267AFF');
+		});
+		
+		//$('div[id=projBox] > div#boxTitle').click(function() { $('div[id=boxContent]').toggle('slow'); return false; });
+		$('div[id=projBox]').children('#boxTitle').click(function() { 
+			$("div[id=projBox] > div#boxContent").slideUp('fast');
+			
+			if ($(this).parent().children('#boxContent').is(':hidden')){
+				$(this).parent().children('#boxContent').slideToggle('fast'); return false;
+			}
+			
+		});
+	 });
+	</script>
+	<title>Work</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="navDiv">
+			<div class="navBar">
+				<ul id="nav-List">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="work.html">Work</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="forum.html">Forum</a></li>
+				</ul>
+
+			</div>
+		</div>	
+		
+		
+		
+		<div class="contentDiv">
+			<div class="content">
+				<h>Work</h>
+				
+				<div id="line"></div>
+				
+				<div id="projBox">
+					<div id="boxTitle"> TITLE</div>
+					<div id="boxContent">
+					blah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blah
+					</div>
+				</div>
+				
+				<div id="projBox">
+					<div id="boxTitle"> TITLE</div>
+					<div id="boxContent">CONTENT hello
+						blah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blah
+
+					</div>
+				</div>
+				
+				<div id="projBox">
+					<div id="boxTitle"> TITLE</div>
+					<div id="boxContent">CONTENT hello
+						blah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blahblah blah blah blah blah
+
+					</div>
+				</div>
+				
+				<div id="projBox">
+					<div id="boxTitle"> TITLE</div>
+					<div id="boxContent">CONTENT hello</div>
+				</div>
+				
+				<div id="projBox">
+					<div id="boxTitle"> TITLE</div>
+					<div id="boxContent">CONTENT hello</div>
+				</div>
+				
+				
+				
+						
+			</div>
+		</div>
+		
+	</div>
+	
+</body>
+
+</html>

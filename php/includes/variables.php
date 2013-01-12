@@ -1,0 +1,5 @@
+<?php
+	$userbar;
+	$title;
+	$scripts;
+?>

@@ -1,0 +1,181 @@
+/**COLOR SCHEME
+BLUE: #267AFF
+YELLOW: #FFD626
+ORANGE: #FF7F26
+AQUA: #41CBFF
+LIGHT BLUE: #DEEBFF
+LIGHT YELLOW: #FFE470
+
+**/
+
+body
+{
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+}
+
+.container
+{
+	background-color: #ffe570;
+}
+
+.navDiv
+{
+	background-color: black;
+	width: 100%;
+	height: 30px;
+	position: fixed;
+	box-shadow: 1px 1px 5px black;	
+	margin: 0px auto;
+}
+
+#leftHalf
+{
+	width: 65%;
+	float: left;
+}
+
+#rightHalf
+{
+	width: 35%;
+	float:left;
+}
+
+/**NAV BAR SETUP**/
+.navBar
+{
+	width: 950px;
+	height: inherit;
+	margin: 0px auto;
+	overflow: hidden;
+	color: white;
+}
+
+#leftHalf
+{
+	width: 65%;
+	float: left;
+}
+
+#rightHalf
+{
+	width: 35%;
+	float:left;
+}
+
+ul#nav-List
+{
+	list-style-type:none;
+	margin:0;
+	padding: 0;
+	overflow:hidden;
+}
+
+ul#nav-List li
+{	
+	float: left;
+}
+
+ul#nav-List a:link,a:visited
+{
+	margin: 8px 0px;
+	padding:0px 5px;
+	display:block;
+	color: #FF7F26;
+	width: 50px;
+	text-align:left;
+	text-decoration:none;
+	font-size: 12px;
+	font-weight: bold;
+	border-left: 1px solid #FFE470;
+}
+ul#nav-List a:hover, a:active
+{
+	color: #41CBFF;
+}
+/**USER BAR SETUP**/
+ul#user-List
+{
+	list-style-type: none;
+	margin: 8px 0px;
+	overflow: hidden;
+	float: right;
+}
+
+ul#user-List li
+{
+	color: #FFD626;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+ul#user-List a:link, a:visited
+{
+	padding:0px 5px;
+	display:block;
+	color: #FF7F26;
+	width: 50px;
+	text-align:right;
+	text-decoration:none;
+	border-right: 1px solid #FFE470;
+
+}
+
+ul#user-List a:hover, a:active
+{
+	color: #41CBFF;
+}
+/**CONTENT SETUP**/
+
+.contentDiv
+{
+	background-color: white;
+	width: 950px;
+	padding-top: 30px;
+	margin: 0px auto;
+	min-height: 100%;
+	box-shadow: 7px 0px 10px -5px #888, -7px 0px 10px -5px #888;	
+}
+
+.content
+{
+	padding:15px 25px 0px 25px;	
+}
+
+.content h
+{
+	color: #FF7F26;
+	font-size: 30px;
+}
+
+#line
+{
+	width: auto;
+	height: 4px;
+	background-color: black;
+}
+
+/**Projects Info Divs**/
+#projBox
+{
+	width: inherit;
+	margin-top: 5px;
+}
+
+#boxTitle
+{
+	color: #267AFF;
+	font-size: large;
+	
+}
+
+#boxContent
+{
+	padding: 3px;
+}
+
+
+
+

@@ -1,0 +1,29 @@
+CREATE TABLE users(
+	user_id int(8) NOT NULL auto_increment,
+	user_name varchar(30) NOT NULL,
+	user_pass varchar(255) NOT NULL,
+	user_date datetime NOT NULL,
+	user_lvl int(8) NOT NULL,
+	primary key (user_id),
+	unique index user_name_unique (user_name)
+	);
+
+CREATE TABLE entries(
+	entry_id int(8) NOT NULL auto_increment,
+	entry_title varchar(255) NOT NULL,
+	entry_content varchar(255) NOT NULL,
+	entry_date DATETIME NOT NULL,
+	primary key (entry_id)
+	);
+
+CREATE TABLE comments(
+	cmnt_id int(8) NOT NULL auto_increment,
+	cmnt_by int(8) NOT NULL,
+	cmnt_entry int(8) NOT NULL,
+	cmnt_content varchar(255) NOT NULL,
+	primary key (cmnt_id)
+	);
+
+
+alter table comments add foreign key(cmnt_by) references users(user_id) on delete restrict on update cascade;
+alter table comments add foreign key(cmnt_entry) references entries(entry_id) on delete cascade on update cascade;
